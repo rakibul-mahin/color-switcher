@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$primaryText: #d9d4d2;
+$navBackground: #000;
+
+a{
+    text-decoration: none;
+    color: $primaryText;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: $navBackground;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26.875rem;
+}
+
+h1{
+    background-color: $navBackground;
+    color: #fffFFF;
+}
+
+.btn{
+    margin-top: 0.875rem;
+    border-radius: 50px;
+    padding: 10px;
+    border: 0px;
+    background-color: $navBackground;
+    cursor: pointer;
+}
